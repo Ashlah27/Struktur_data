@@ -17,7 +17,7 @@ class Queue {
 
     public void insert(long value) {
         if (isFull()) {
-                System.out.println("Antrian penuhhh");
+                System.out.println("Antrian penuh");
             }else {
                 
                 if (rear == maxSize - 1) {
