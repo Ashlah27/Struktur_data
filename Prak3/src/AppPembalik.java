@@ -66,5 +66,6 @@ public class AppPembalik {
             char value = stack.pop();
             System.out.print(value);
         }
+        scanner.close();
     }
 }
