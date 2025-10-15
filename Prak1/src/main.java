@@ -51,7 +51,7 @@ public class main {
     public static void main(String[] args) {
         HighArrayApp arr = new HighArrayApp(10);
         System.out.println("Array sebelum ditambah : ");
-        arr.insert(15);
+        arr.insert(53);
         arr.insert(30);
         arr.insert(45);
         arr.insert(53);
@@ -62,7 +62,7 @@ public class main {
         arr.display();
 
         System.out.println("\nSetelah ditambah nilai");
-        arr.insert(66);
+        arr.insert(53);
         arr.display();
 
         int target = 53;
@@ -71,7 +71,7 @@ public class main {
             System.out.println("Data tidak ditemukan");
         } else {
             System.out.println();
-            System.out.println(target + " Ditemukan di index ke-" + hasil);
+            System.out.println(target + " Ditemukan di index ke" + hasil);
         }
 
     }
